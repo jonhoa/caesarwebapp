@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=BIZ+UDMincho&display=swap');
+
+html {
+    --primary: #08810e;
+    --font: 'BIZ UDMincho', 'Menlo', 'Courier New', Courier, monospace;
+    --dark: #222;
+    --gray: #D8D8D8;
+    --white: #FFF;
+    --darkGray: #000000;
+  }
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(180deg, #FFF 75%, #FFF8F8 100%);
+    font-family: var(--font);
+    background-image: url(parch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20px;
+  }
+
+  h1 {
+    color: var(--primary);
+    border-bottom: 5px solid var(--primary);
+    padding: 20px;
+    margin-top: 5%;
+    font-size: 3em;
+    font-weight: 500;
+  }
+
+  label {
+    margin: 20px;
+    color: var(--darkGray);
+  }
+
+  input {
+    display: block;
+    font-family: var(--font);
+    font-size: 2em;
+    padding: 10px;
+    font-weight: 100;
+    border: 3px solid var(--gray);
+    margin: 20px;
+    background-color: var(--white);
+    width: calc(100% - 65px);
+  }
+
+  #encrypted {
+    border-color: var(--dark);
+    background-color: var(--dark);
+    color: var(--white);
+  }
+
+  .Container1 {
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+
+  hr {
+    border: 1px solid var(--primary);
+    margin: 50px 0px;
+  }
+
+  .wax img {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    margin-top: 50px;
+  }
